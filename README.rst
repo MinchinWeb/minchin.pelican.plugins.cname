@@ -21,7 +21,7 @@ will also install the required dependencies automatically.
 
   pip install minchin.pelican.plugins.cname
 
-Then, in your ``pelicanconf.py`` file, add ``Image Process`` to your list of
+Then, in your ``pelicanconf.py`` file, add ``CName`` to your list of
 plugins:
 
 .. code-block:: python
