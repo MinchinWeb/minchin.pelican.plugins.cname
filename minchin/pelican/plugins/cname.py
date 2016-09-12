@@ -3,16 +3,17 @@
 CName
 =============
 
-This plugin add a *CNAME* file with contents based on ``SITEURL``.
+This plugin for Pelican add a *CNAME* file with contents based on ``SITEURL``.
 """
-
-__version__ = '1.0.1'
 
 import os
 from pelican import signals
 
+__version__ = "1.0.2"
+
+
 def add_cname(p):
-    """ 
+    """
     :param p: pelican instance
     :return: None
     """
@@ -22,7 +23,8 @@ def add_cname(p):
     siteurl = siteurl.replace("http://", "")
     siteurl = siteurl.replace("https://", "")
     with open(cname_path, 'w') as cname_file:
-        cname_file.write(siteurl)    
+        cname_file.write(siteurl)
+
 
 def register():
     signals.finalized.connect(add_cname)

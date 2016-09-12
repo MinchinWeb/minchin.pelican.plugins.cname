@@ -1,12 +1,15 @@
+CName Changelog
+===============
 
-v. 1.0.1 [2016-08-13]
-=====================
+This Changelog is for ``minchin.pelican.plugins.cname``.
 
-- move package to 'minchin.pelican.plugins.cname'
-- add 'setup.py', 'CHANGELOG.rst', 'README.rst'
-
-
-v. 1.0.0 [2015-09-22]
-=====================
-
-- copy exising code from `Pelican Plugins Pull Request #566 <https://github.com/getpelican/pelican-plugins/pull/566/files>`_
+- :release:`1.0.2 <2016-09-12>`
+- :support:`-` add release machinery
+- :support:`-` first release to PyPI
+- :bug:`-` minor fixes uploading to PyPI
+- :release:`1.0.1 <2016-08-13>`
+- :support:`-` move package to 'minchin.pelican.plugins.cname'
+- :support:`-` add 'setup.py', 'CHANGELOG.rst', 'README.rst'
+- :release:`1.0.0 <2015-09-22>`
+- :support: copy existing code from `Pelican Plugins Pull Request #566
+  <https://github.com/getpelican/pelican-plugins/pull/566/files>`_
