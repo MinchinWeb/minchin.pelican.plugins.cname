@@ -3,6 +3,8 @@ CName Changelog
 
 This Changelog is for ``minchin.pelican.plugins.cname``.
 
+- :release:`1.0.4 <2017-04-10>`
+- :bug:`-` include License.txt file
 - :release:`1.0.3 <2017-04-09>`
 - :bug:`-` ``Framework :: Pelican :: Plugins`` trove classifier now available on
   PyPI.
