@@ -9,7 +9,7 @@ This plugin for Pelican add a *CNAME* file with contents based on ``SITEURL``.
 import os
 from pelican import signals
 
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 
 
 def add_cname(p):
