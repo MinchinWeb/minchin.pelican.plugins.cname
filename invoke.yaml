@@ -8,3 +8,11 @@ releaser:
   version: minchin\pelican\plugins\cname.py
   test_command: None
   version_bump: None
+  extra_packages:
+    test:
+      - blinker
+      - docutils
+      - jinja2
+      - markupsafe
+      - unidecode
+
