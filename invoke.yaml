@@ -1,0 +1,10 @@
+releaser:
+  module_name: minchin.pelican.plugins.cname
+  here: .
+  source: minchin
+  docs: None
+  test: None
+  changelog: CHANGELOG.rst
+  version: minchin\pelican\plugins\cname.py
+  test_command: None
+  version_bump: None

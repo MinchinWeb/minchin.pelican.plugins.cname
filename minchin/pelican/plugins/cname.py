@@ -7,9 +7,16 @@ This plugin for Pelican add a *CNAME* file with contents based on ``SITEURL``.
 """
 
 import os
+
 from pelican import signals
 
-__version__ = "1.0.4"
+__title__ = "minchin.pelican.plugins.cname"
+__version__ = "1.0.5+dev.1"
+__description__ = "Pelican plugin that adds a `CNAME` file to the output root. Useful for publishing to Github Pages. Written in Python."
+__author__ = "William Minchin"
+__email__ = "w_minchin@hotmail.com"
+__url__ = "https://github.com/MinchinWeb/minchin.pelican.plugins.cname"
+__license__ = "AGPL-3.0"
 
 
 def add_cname(p):
