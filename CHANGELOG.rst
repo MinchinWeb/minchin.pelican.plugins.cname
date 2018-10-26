@@ -3,6 +3,8 @@ CName Changelog
 
 This Changelog is for ``minchin.pelican.plugins.cname``.
 
+- :release:`1.2.0 <2018-10-25>`
+- :feature:`-` deal with protocol-less SITEURL's
 - :release:`1.1.0 <2018-10-25>`
 - :support:`-` switch to ``minchin.releaser`` to build releases.
 - :release:`1.0.4 <2017-04-10>`
