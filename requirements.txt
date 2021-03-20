@@ -7,7 +7,7 @@
 blinker==1.4              # via pelican
 docutils==0.14            # via pelican
 feedgenerator==1.9        # via pelican
-jinja2==2.10              # via pelican
+jinja2==2.11.3              # via pelican
 markupsafe==1.0           # via jinja2
 pelican==3.7.1
 pygments==2.2.0           # via pelican
