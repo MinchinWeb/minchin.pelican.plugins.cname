@@ -44,6 +44,10 @@ PACKAGES     = setuptools.find_packages(exclude="vendor_src")
 
 INSTALL_REQUIRES = [
     'pelican',
+
+    # sub-dependencies; minimum version to avoid vulnerabilities
+    'jinja2 >= 2.11.3',
+    'pygments >= 2.7.4', 
 ]
 
 EXTRA_REQUIRES = {
