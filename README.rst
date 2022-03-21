@@ -11,6 +11,27 @@ useful when you are publishing your site to `GitHub Pages
 <https://help.github.com/articles/using-a-custom-domain-with-github-pages/>`_.
 
 
+.. image:: https://img.shields.io/pypi/v/minchin.pelican.plugins.cname.svg?style=flat
+    :target: https://pypi.python.org/pypi/minchin.pelican.plugins.cname/
+    :alt: PyPI version number
+
+.. image:: https://img.shields.io/badge/-Changelog-success
+   :target: https://github.com/MinchinWeb/minchin.pelican.plugins.cname/blob/master/CHANGELOG.rst
+   :alt: Changelog
+
+.. image:: https://img.shields.io/pypi/pyversions/minchin.pelican.plugins.cname?style=flat
+    :target: https://pypi.python.org/pypi/minchin.pelican.plugins.cname/
+    :alt: Supported Python version
+
+.. image:: https://img.shields.io/pypi/l/minchin.pelican.plugins.cname.svg?style=flat&color=green
+    :target: https://github.com/MinchinWeb/minchin.pelican.plugins.cname/blob/master/License.txt
+    :alt: License
+
+.. image:: https://img.shields.io/pypi/dm/minchin.pelican.plugins.cname.svg?style=flat
+    :target: https://pypi.python.org/pypi/minchin.pelican.plugins.cname/
+    :alt: Download Count
+
+
 Installation
 ============
 
