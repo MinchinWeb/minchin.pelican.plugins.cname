@@ -16,7 +16,7 @@ jinja2==3.0.3
     # via
     #   minchin.pelican.plugins.cname (setup.py)
     #   pelican
-markupsafe==2.1.1
+markupsafe==2.1.3
     # via jinja2
 pelican==4.7.2
     # via minchin.pelican.plugins.cname (setup.py)
