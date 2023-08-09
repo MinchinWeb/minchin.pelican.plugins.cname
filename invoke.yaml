@@ -10,9 +10,8 @@ releaser:
   version_bump: None
   extra_packages:
     test:
-      - blinker
-      - docutils
-      - jinja2
-      - markupsafe
       - unidecode
-
+      - semantic-version
+      - pelican
+      - setuptools
+      - wheel

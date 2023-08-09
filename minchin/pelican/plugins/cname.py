@@ -11,7 +11,7 @@ import os
 from pelican import signals
 
 __title__ = "minchin.pelican.plugins.cname"
-__version__ = "1.2.1"
+__version__ = "1.3.4"
 __description__ = "Pelican plugin that adds a `CNAME` file to the output root. Useful for publishing to Github Pages. Written in Python."
 __author__ = "William Minchin"
 __email__ = "w_minchin@hotmail.com"

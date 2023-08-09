@@ -3,6 +3,7 @@ CName Changelog
 
 This Changelog is for ``minchin.pelican.plugins.cname``.
 
+- :release:`1.3.4 <2023-08-09>`
 - :support`-`: add autoloading via ``minchin.pelican.plugins.autoloader``.
 - :release:`1.2.1 <2018-10-25>`
 - :bug:`-` only replace protocol at the beginning of SITEURL's
@@ -20,8 +21,8 @@ This Changelog is for ``minchin.pelican.plugins.cname``.
 - :support:`-` first release to PyPI
 - :bug:`-` minor fixes uploading to PyPI
 - :release:`1.0.1 <2016-08-13>`
-- :support:`-` move package to 'minchin.pelican.plugins.cname'
-- :support:`-` add 'setup.py', 'CHANGELOG.rst', 'README.rst'
+- :support:`-` move package to ``minchin.pelican.plugins.cname``
+- :support:`-` add ``setup.py``, ``CHANGELOG.rst``, ``README.rst``
 - :release:`1.0.0 <2015-09-22>`
 - :support:`-` copy existing code from `Pelican Plugins Pull Request #566
   <https://github.com/getpelican/pelican-plugins/pull/566/files>`_
