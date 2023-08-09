@@ -5,6 +5,7 @@ This Changelog is for ``minchin.pelican.plugins.cname``.
 
 - :release:`1.3.4 <2023-08-09>`
 - :support`-`: add autoloading via ``minchin.pelican.plugins.autoloader``.
+- **note**: there are no releases for v1.3.0 through v1.3.3.
 - :release:`1.2.1 <2018-10-25>`
 - :bug:`-` only replace protocol at the beginning of SITEURL's
 - :release:`1.2.0 <2018-10-25>`
