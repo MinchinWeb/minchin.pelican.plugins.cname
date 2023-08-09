@@ -47,7 +47,7 @@ INSTALL_REQUIRES = [
 
     # sub-dependencies; minimum version to avoid vulnerabilities
     'jinja2 >= 2.11.3',
-    'pygments >= 2.7.4', 
+    'pygments >= 2.15.0', 
 ]
 
 EXTRA_REQUIRES = {
