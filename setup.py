@@ -43,7 +43,7 @@ PACKAGES = setuptools.find_packages(exclude="vendor_src")
 
 INSTALL_REQUIRES = [
     "pelican",
-
+    "minchin.pelican.plugins.autoloader != 1.2.0",
     # sub-dependencies; minimum version to avoid vulnerabilities
     "jinja2 >= 2.11.3",
     "pygments >= 2.15.0",

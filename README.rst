@@ -42,16 +42,7 @@ install the required dependencies automatically.
 
   pip install minchin.pelican.plugins.cname
 
-Then, in your ``pelicanconf.py`` file, add ``CName`` to your list of plugins:
-
-.. code-block:: python
-
-  PLUGINS = [
-              # ...
-              'minchin.pelican.plugins.cname',
-              # ...
-            ]
-
+If you are using Pelican >= 4.5, the plugin will be automatically activated!
 And that's it! No further configuration is needed.
 
 

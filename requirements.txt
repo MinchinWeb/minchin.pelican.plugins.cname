@@ -20,8 +20,12 @@ markupsafe==2.1.3
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-pelican==4.8.0
+minchin-pelican-plugins-autoloader==1.2.1
     # via minchin.pelican.plugins.cname (setup.py)
+pelican==4.8.0
+    # via
+    #   minchin-pelican-plugins-autoloader
+    #   minchin.pelican.plugins.cname (setup.py)
 pygments==2.16.1
     # via
     #   minchin.pelican.plugins.cname (setup.py)
@@ -35,6 +39,8 @@ pytz==2023.3
     #   pelican
 rich==13.5.2
     # via pelican
+semantic-version==2.10.0
+    # via minchin-pelican-plugins-autoloader
 six==1.16.0
     # via python-dateutil
 unidecode==1.3.6

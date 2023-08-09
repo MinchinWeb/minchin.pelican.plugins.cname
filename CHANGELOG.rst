@@ -3,6 +3,7 @@ CName Changelog
 
 This Changelog is for ``minchin.pelican.plugins.cname``.
 
+- :support`-`: add autoloading via ``minchin.pelican.plugins.autoloader``.
 - :release:`1.2.1 <2018-10-25>`
 - :bug:`-` only replace protocol at the beginning of SITEURL's
 - :release:`1.2.0 <2018-10-25>`
