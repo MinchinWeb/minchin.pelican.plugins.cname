@@ -25,8 +25,8 @@ def add_cname(p):
     :return: None
     """
 
-    cname_path = os.path.join(p.output_path, 'CNAME')
-    siteurl = p.settings.get('SITEURL', "127.0.0.1:8000")
+    cname_path = os.path.join(p.output_path, "CNAME")
+    siteurl = p.settings.get("SITEURL", "127.0.0.1:8000")
     if siteurl.startswith("http://"):
         siteurl = siteurl[7:]
     elif siteurl.startswith("https://"):
@@ -34,7 +34,7 @@ def add_cname(p):
     elif siteurl.startswith("//"):
         siteurl = siteurl[2:]
 
-    with open(cname_path, 'w') as cname_file:
+    with open(cname_path, "w") as cname_file:
         cname_file.write(siteurl)
 
 
